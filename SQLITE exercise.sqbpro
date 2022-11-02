@@ -26,7 +26,9 @@ SELECT Film ,year,WorldwideGross
  ORDER by(WorldwideGross)
  DESC
 
-SELECT Film,LeadStudio FROM Movies WHERE LeadStudio=&quot;Independent&quot;
+SELECT Film,LeadStudio 
+ FROM Movies 
+ WHERE LeadStudio=&quot;Independent&quot;
 
 SELECT film ,year from movies WHERE Year=&quot;2011&quot; order by (Profitability)
 
