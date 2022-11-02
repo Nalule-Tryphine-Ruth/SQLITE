@@ -17,7 +17,9 @@ SELECT film,year,Genre
  where Genre=&quot;Comedy&quot;
  ORDER BY(film)
 
-SELECT avg(Audiencescore) FROM Movies where Year=&quot;2010&quot;
+SELECT avg(Audiencescore) 
+ FROM Movies
+ where Year=&quot;2010&quot;
 
 SELECT Film ,year,WorldwideGross from Movies ORDER by(WorldwideGross)DESC
 
