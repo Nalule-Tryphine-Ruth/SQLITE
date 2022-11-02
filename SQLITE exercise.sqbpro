@@ -30,7 +30,10 @@ SELECT Film,LeadStudio
  FROM Movies 
  WHERE LeadStudio=&quot;Independent&quot;
 
-SELECT film ,year from movies WHERE Year=&quot;2011&quot; order by (Profitability)
+SELECT film ,year 
+ from movies
+ WHERE Year=&quot;2011&quot; 
+ order by (Profitability)
 
 SELECT LeadStudio,RottenTomatoes from Movies WHERE RottenTomatoes &gt;=80
  
