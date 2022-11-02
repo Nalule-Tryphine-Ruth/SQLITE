@@ -12,7 +12,10 @@ SELECT Film,RottenTomatoes
  from Movies 
  where RottenTomatoes &gt;=70
 
-SELECT film,year,Genre from Movies where Genre=&quot;Comedy&quot; ORDER BY(film)
+SELECT film,year,Genre 
+ from Movies
+ where Genre=&quot;Comedy&quot;
+ ORDER BY(film)
 
 SELECT avg(Audiencescore) FROM Movies where Year=&quot;2010&quot;
 
